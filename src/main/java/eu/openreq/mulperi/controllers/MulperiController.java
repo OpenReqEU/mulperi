@@ -216,7 +216,7 @@ public class MulperiController {
 	*/
 	
 
-	public ResponseEntity<?> convertToMurmeliAndPostToCaas(String jsonString, String completeAddress) {
+	public ResponseEntity<?> convertToMurmeliAndPostToCaas(String jsonString, String completeAddress) throws JSONException {
 			
 		JSONParser.parseToOpenReqObjects(jsonString);
 		
